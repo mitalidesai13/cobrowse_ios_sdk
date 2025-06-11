@@ -1,5 +1,4 @@
-// swift-tools-version:5.5 // IMPORTANT: Use your specific Swift tools version (e.g., 5.7, 5.9 for recent Xcode)
-// swift-tools-version:5.9 // Keep this updated (e.g., 5.9 or 5.10)
+// swift-tools-version:5.9 // Only keep this line for the tools version
 import PackageDescription
 
 let package = Package(
@@ -13,10 +12,10 @@ let package = Package(
     ],
     dependencies: [
         // SignalRClient: Set to from: "1.1.0" to match screenshot's rule
-        .package(url: "https://github.com/moozzyk/SignalR-Client-Swift.git", from: "1.1.0"), // CHANGED TO 1.1.0
+        .package(url: "https://github.com/moozzyk/SignalR-Client-Swift.git", from: "1.1.0"),
 
         // SwiftCBOR: Set to .branch("master") to match screenshot's rule
-        .package(url: "https://github.com/valpackett/SwiftCBOR", .branch("master")) // CHANGED TO .branch("master")
+        .package(url: "https://github.com/valpackett/SwiftCBOR", .branch("master"))
     ],
     targets: [
         .binaryTarget(
