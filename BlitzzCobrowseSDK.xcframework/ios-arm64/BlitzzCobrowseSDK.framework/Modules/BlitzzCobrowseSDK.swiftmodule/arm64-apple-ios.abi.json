@@ -5084,357 +5084,357 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "IntegerLiteral",
       "offset": 481,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
       "offset": 516,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
       "offset": 547,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 621,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "Array",
       "offset": 665,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 704,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "FloatLiteral",
       "offset": 747,
       "length": 4,
       "value": "0.05"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
       "offset": 831,
       "length": 27,
       "value": "\"com.cobrowse.captureQueue\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
       "offset": 902,
       "length": 52,
       "value": "\"https:\/\/cobrowse-socket-dev.blitzz.co\/blitzzsocket\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "Array",
       "offset": 1093,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/CoBrowseConfig.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/CoBrowseConfig.swift",
       "kind": "StringLiteral",
       "offset": 252,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/CoBrowseConfig.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/CoBrowseConfig.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/CoBrowseConfig.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 331,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/CoBrowseConfig.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 371,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/CoBrowseConfig.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/CoBrowseConfig.swift",
       "kind": "StringLiteral",
       "offset": 415,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/CoBrowseConfig.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/CoBrowseConfig.swift",
       "kind": "StringLiteral",
       "offset": 468,
       "length": 33,
       "value": "\"com.blitzz.CoBrowseConfig.queue\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/CoBrowseConfig.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 763,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/CoBrowseViewModel.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/CoBrowseViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 291,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/CoBrowseViewModel.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/CoBrowseViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "Array",
       "offset": 606,
       "length": 22,
       "value": "[0x00, 0x00, 0x00, 0x01]"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "StringLiteral",
       "offset": 3229,
       "length": 12,
       "value": "\"nil buffer\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "StringLiteral",
       "offset": 3370,
       "length": 13,
       "value": "\"nil pointer\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "StringLiteral",
       "offset": 3469,
       "length": 17,
       "value": "\"encoding failed\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "StringLiteral",
       "offset": 3596,
       "length": 36,
       "value": "\"CMSampleBuffer is not ready to use\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "StringLiteral",
       "offset": 3742,
       "length": 15,
       "value": "\"frame dropped\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "IntegerLiteral",
       "offset": 4207,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "IntegerLiteral",
       "offset": 4392,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "IntegerLiteral",
       "offset": 4809,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "IntegerLiteral",
       "offset": 4908,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "IntegerLiteral",
       "offset": 4995,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "IntegerLiteral",
       "offset": 5169,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/H264.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/H264.swift",
       "kind": "IntegerLiteral",
       "offset": 5288,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SessionRequestModel.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SessionRequestModel.swift",
       "kind": "StringLiteral",
       "offset": 1487,
       "length": 11,
       "value": "\"sessionId\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SessionRequestModel.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SessionRequestModel.swift",
       "kind": "StringLiteral",
       "offset": 1548,
       "length": 10,
       "value": "\"deviceId\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SessionRequestModel.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SessionRequestModel.swift",
       "kind": "StringLiteral",
       "offset": 1857,
       "length": 10,
       "value": "\"COBROWSE\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SessionRequestModel.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SessionRequestModel.swift",
       "kind": "StringLiteral",
       "offset": 1901,
       "length": 19,
       "value": "\"COBROWSERECORDING\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SessionRequestModel.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SessionRequestModel.swift",
       "kind": "StringLiteral",
       "offset": 1949,
       "length": 14,
       "value": "\"COBROWSECALL\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SessionRequestModel.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SessionRequestModel.swift",
       "kind": "StringLiteral",
       "offset": 2000,
       "length": 22,
       "value": "\"COBROWSEINTEGRATIONS\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 351,
       "length": 18,
       "value": "\"session-selected\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 397,
       "length": 14,
       "value": "\"session-stop\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 14,
       "value": "\"replay-event\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 488,
       "length": 21,
       "value": "\"session-acknowledge\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 541,
       "length": 18,
       "value": "\"session-rejected\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 589,
       "length": 16,
       "value": "\"replay-session\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 681,
       "length": 13,
       "value": "\"SendMessage\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 729,
       "length": 20,
       "value": "\"SendMessageToGroup\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "BooleanLiteral",
       "offset": 861,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 943,
       "length": 12,
       "value": "\"guest_user\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 983,
       "length": 8,
       "value": "\"domain\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 4,
       "value": "\"US\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/SignalRService.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "BooleanLiteral",
       "offset": 1068,
       "length": 5,
