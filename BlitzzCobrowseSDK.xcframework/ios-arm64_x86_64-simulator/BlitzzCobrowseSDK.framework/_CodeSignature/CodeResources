@@ -12,17 +12,13 @@
 		<data>
 		0z8w8m7Pc8IQE8t0lEJ9zThUPMU=
 		</data>
-		<key>Modules/BlitzzCobrowseSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		N0/qVonRAfK5tGb/FDqAKhmSyQQ=
-		</data>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		erpvrevmox2tBN5qGCKSOSTUxdk=
+		SeWtpByNyySIlYsyXeY9CXpDfNI=
 		</data>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QjolVHiSubF3JTkWN/bMOkoo7k0=
+		X3vWlNGzQBd7TIYXEuqvXsHLFoc=
 		</data>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,11 +26,31 @@
 		</data>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QjolVHiSubF3JTkWN/bMOkoo7k0=
+		X3vWlNGzQBd7TIYXEuqvXsHLFoc=
 		</data>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jF4EOHspbQLH3ENY3mfrCb/VGLI=
+		qhdl9jmu/Bd34NO9bTVPLhyU3XY=
+		</data>
+		<key>Modules/BlitzzCobrowseSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		SeWtpByNyySIlYsyXeY9CXpDfNI=
+		</data>
+		<key>Modules/BlitzzCobrowseSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		moSnlB9yExeS3jpEQ7XLc72iDC8=
+		</data>
+		<key>Modules/BlitzzCobrowseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		w5kKv4aZm5HVmgIKaisrL8vebGw=
+		</data>
+		<key>Modules/BlitzzCobrowseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		moSnlB9yExeS3jpEQ7XLc72iDC8=
+		</data>
+		<key>Modules/BlitzzCobrowseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		0IKZ/7Y+z6pCr+qX1vfq28d94xI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,25 +66,18 @@
 			GHXi2U5RAflqBQmdb7brxc2M3OpJd3KtIwNaqbK18qc=
 			</data>
 		</dict>
-		<key>Modules/BlitzzCobrowseSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VarZ4WlyrraAoFdUXI8wE4ytt6c39sN228zaH0B1ULY=
-			</data>
-		</dict>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SyPDzYq4Aqnt2+YGJL5DY1k0pueYcDkIVdQIPnsVJKE=
+			THWQFLVW0Z5HI1MH4+nIobOeb7JMIZ+ldlmZzkcFDdg=
 			</data>
 		</dict>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8fl5sJYgNV3k6dufJz2PvH8ley4W4sC+DyUcHm18iv8=
+			ijFlf/yStOmvi16gIqd1KfOnYVnEJmcCg1NCjzhmJPA=
 			</data>
 		</dict>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -82,14 +91,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8fl5sJYgNV3k6dufJz2PvH8ley4W4sC+DyUcHm18iv8=
+			ijFlf/yStOmvi16gIqd1KfOnYVnEJmcCg1NCjzhmJPA=
 			</data>
 		</dict>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2UDATtCtUGlM7VZebUg6tKB9hy3WyLCKRF7evPJbH/M=
+			IpxyJ89hXm4VNs8LRV493IK2t7SJhu9SfI9Es9l2jTU=
+			</data>
+		</dict>
+		<key>Modules/BlitzzCobrowseSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			THWQFLVW0Z5HI1MH4+nIobOeb7JMIZ+ldlmZzkcFDdg=
+			</data>
+		</dict>
+		<key>Modules/BlitzzCobrowseSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AHnvjoyoffuSkix2vWdSzJmEry+wpTTuyGiEdJL0qLY=
+			</data>
+		</dict>
+		<key>Modules/BlitzzCobrowseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s/WZRKQ57hoKyu10EfbowEmBxafOAHtBi8OReqGq7/A=
+			</data>
+		</dict>
+		<key>Modules/BlitzzCobrowseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AHnvjoyoffuSkix2vWdSzJmEry+wpTTuyGiEdJL0qLY=
+			</data>
+		</dict>
+		<key>Modules/BlitzzCobrowseSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yT1PgSNiOzMRsQmR2biXG6NS/E9FJms/WCUoXDMdQyU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
