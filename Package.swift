@@ -11,10 +11,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        // SignalRClient: Set to from: "1.1.0" to match screenshot's rule
         .package(url: "https://github.com/moozzyk/SignalR-Client-Swift.git", from: "1.1.0"),
-
-        // SwiftCBOR: Set to .branch("master") to match screenshot's rule
         .package(url: "https://github.com/valpackett/SwiftCBOR", .branch("master"))
     ],
     targets: [
@@ -25,11 +22,11 @@ let package = Package(
         .target(
             name: "BlitzzCobrowseSDKWrapper",
             dependencies: [
-                "BlitzzCobrowseSDKBinary",
+                .target(name: "BlitzzCobrowseSDKBinary"),
                 .product(name: "SignalRClient", package: "SignalR-Client-Swift"),
                 .product(name: "SwiftCBOR", package: "SwiftCBOR")
             ],
-            path: "Sources/BlitzzCobrowseSDKWrapper"
+            path: "Sources"
         )
     ]
 )
