@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "BlitzzCobrowseSDK",
-    platforms: [.iOS(.v15)], // Or your minimum iOS version
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "BlitzzCobrowseSDK",
@@ -25,7 +25,7 @@ let package = Package(
         .target(
             name: "BlitzzCobrowseSDKWrapper",
             dependencies: [
-                .target(name: "BlitzzCobrowseSDKBinary"),
+                "BlitzzCobrowseSDKBinary",
                 .product(name: "SignalRClient", package: "SignalR-Client-Swift"),
                 .product(name: "SwiftCBOR", package: "SwiftCBOR")
             ],
