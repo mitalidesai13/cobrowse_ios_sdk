@@ -47,7 +47,10 @@
         "name": "SignalRClient",
         "printedName": "SignalRClient",
         "declKind": "Import",
-        "moduleName": "BlitzzCobrowseSDK"
+        "moduleName": "BlitzzCobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -577,126 +580,6 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "connectionDidFailToOpen",
-            "printedName": "connectionDidFailToOpen(error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK0A14CobrowseiOSSDKC23connectionDidFailToOpen5errorys5Error_p_tF",
-            "mangledName": "$s17BlitzzCobrowseSDK0A14CobrowseiOSSDKC23connectionDidFailToOpen5errorys5Error_p_tF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "connectionDidOpen",
-            "printedName": "connectionDidOpen(hubConnection:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "HubConnection",
-                "printedName": "SignalRClient.HubConnection",
-                "usr": "s:13SignalRClient13HubConnectionC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK0A14CobrowseiOSSDKC17connectionDidOpen13hubConnectiony13SignalRClient03HubJ0C_tF",
-            "mangledName": "$s17BlitzzCobrowseSDK0A14CobrowseiOSSDKC17connectionDidOpen13hubConnectiony13SignalRClient03HubJ0C_tF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "connectionDidClose",
-            "printedName": "connectionDidClose(error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Swift.Error)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK0A14CobrowseiOSSDKC18connectionDidClose5errorys5Error_pSg_tF",
-            "mangledName": "$s17BlitzzCobrowseSDK0A14CobrowseiOSSDKC18connectionDidClose5errorys5Error_pSg_tF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hubConnection",
-            "printedName": "hubConnection(didReceiveError:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK0A14CobrowseiOSSDKC13hubConnection15didReceiveErrorys0J0_p_tF",
-            "mangledName": "$s17BlitzzCobrowseSDK0A14CobrowseiOSSDKC13hubConnection15didReceiveErrorys0J0_p_tF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -783,13 +666,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "HubConnectionDelegate",
-            "printedName": "HubConnectionDelegate",
-            "usr": "s:13SignalRClient21HubConnectionDelegateP",
-            "mangledName": "$s13SignalRClient21HubConnectionDelegateP"
           }
         ]
       },
@@ -3368,14 +3244,20 @@
         "name": "SignalRClient",
         "printedName": "SignalRClient",
         "declKind": "Import",
-        "moduleName": "BlitzzCobrowseSDK"
+        "moduleName": "BlitzzCobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
         "name": "SwiftCBOR",
         "printedName": "SwiftCBOR",
         "declKind": "Import",
-        "moduleName": "BlitzzCobrowseSDK"
+        "moduleName": "BlitzzCobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -5086,37 +4968,23 @@
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 481,
+      "offset": 564,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 599,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 630,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 621,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
-      "kind": "Array",
-      "offset": 665,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
@@ -5127,29 +4995,43 @@
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
+      "kind": "Array",
+      "offset": 748,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 787,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "FloatLiteral",
-      "offset": 747,
+      "offset": 830,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
-      "offset": 831,
+      "offset": 914,
       "length": 27,
       "value": "\"com.cobrowse.captureQueue\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
-      "offset": 902,
+      "offset": 985,
       "length": 52,
       "value": "\"https:\/\/cobrowse-socket-dev.blitzz.co\/blitzzsocket\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowseiOSSDK.swift",
       "kind": "Array",
-      "offset": 1093,
+      "offset": 1176,
       "length": 2,
       "value": "[]"
     },
@@ -5352,91 +5234,91 @@
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 351,
+      "offset": 369,
       "length": 18,
       "value": "\"session-selected\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 397,
+      "offset": 415,
       "length": 14,
       "value": "\"session-stop\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 439,
+      "offset": 457,
       "length": 14,
       "value": "\"replay-event\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 506,
       "length": 21,
       "value": "\"session-acknowledge\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 541,
+      "offset": 559,
       "length": 18,
       "value": "\"session-rejected\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 589,
+      "offset": 607,
       "length": 16,
       "value": "\"replay-session\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 681,
+      "offset": 699,
       "length": 13,
       "value": "\"SendMessage\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 729,
+      "offset": 747,
       "length": 20,
       "value": "\"SendMessageToGroup\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "BooleanLiteral",
-      "offset": 861,
+      "offset": 879,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 961,
       "length": 12,
       "value": "\"guest_user\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 983,
+      "offset": 1001,
       "length": 8,
       "value": "\"domain\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 1016,
+      "offset": 1034,
       "length": 4,
       "value": "\"US\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/BlitzzCobrowseSDK\/Sources\/BlitzzCobrowseSDK\/SignalRService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1068,
+      "offset": 1086,
       "length": 5,
       "value": "false"
     }

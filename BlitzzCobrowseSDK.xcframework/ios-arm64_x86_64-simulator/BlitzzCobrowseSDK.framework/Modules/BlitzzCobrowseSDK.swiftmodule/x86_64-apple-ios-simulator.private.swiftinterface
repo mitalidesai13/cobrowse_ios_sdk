@@ -6,9 +6,7 @@ import AVFoundation
 import CoreVideo
 import Foundation
 import ReplayKit
-import SignalRClient
 import Swift
-import SwiftCBOR
 import UIKit
 import VideoToolbox
 import _Concurrency
@@ -26,12 +24,6 @@ import _SwiftConcurrencyShims
   final public func imageToSampleBuffer(image: UIKit.UIImage) -> CoreMedia.CMSampleBuffer?
   @_Concurrency.MainActor final public func joinGroup(user: Swift.String)
   @objc deinit
-}
-extension BlitzzCobrowseSDK.BlitzzCobrowseiOSSDK : SignalRClient.HubConnectionDelegate {
-  final public func connectionDidFailToOpen(error: any Swift.Error)
-  final public func connectionDidOpen(hubConnection: SignalRClient.HubConnection)
-  final public func connectionDidClose(error: (any Swift.Error)?)
-  final public func hubConnection(didReceiveError error: any Swift.Error)
 }
 @_hasMissingDesignatedInitializers final public class CoBrowseConfig : @unchecked Swift.Sendable {
   public static let shared: BlitzzCobrowseSDK.CoBrowseConfig
