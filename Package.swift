@@ -11,8 +11,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/moozzyk/SignalR-Client-Swift.git", from: "0.9.0"),
-        .package(url: "https://github.com/myfreeweb/SwiftCBOR.git", from: "0.4.4"),
+        .package(url: "https://github.com/moozzyk/SignalR-Client-Swift.git", from: "1.1.0"),
+        .package(url: "https://github.com/valpackett/SwiftCBO", from: "1.0.0"),
     ],
     targets: [
         // 3. Your actual binary target pointing to the .xcframework
