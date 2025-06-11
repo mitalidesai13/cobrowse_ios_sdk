@@ -1,34 +1,36 @@
 // swift-tools-version:5.5 // IMPORTANT: Use your specific Swift tools version (e.g., 5.7, 5.9 for recent Xcode)
+// swift-tools-version:5.9 // Keep this updated (e.g., 5.9 or 5.10)
 import PackageDescription
 
 let package = Package(
     name: "BlitzzCobrowseSDK",
-    platforms: [.iOS(.v12)], // Or your minimum iOS version
+    platforms: [.iOS(.v15)], // Or your minimum iOS version
     products: [
         .library(
-            name: "BlitzzCobrowseSDK", // This will be the product name for your actual SDK
-            targets: ["BlitzzCobrowseSDKWrapper"] // Point this to your new wrapper target
+            name: "BlitzzCobrowseSDK",
+            targets: ["BlitzzCobrowseSDKWrapper"]
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/moozzyk/SignalR-Client-Swift.git", from: "1.1.0"),
-        .package(url: "https://github.com/valpackett/SwiftCBO", from: "1.0.0"),
+        // SignalRClient: Set to from: "1.1.0" to match screenshot's rule
+        .package(url: "https://github.com/moozzyk/SignalR-Client-Swift.git", from: "1.1.0"), // CHANGED TO 1.1.0
+
+        // SwiftCBOR: Set to .branch("master") to match screenshot's rule
+        .package(url: "https://github.com/valpackett/SwiftCBOR", .branch("master")) // CHANGED TO .branch("master")
     ],
     targets: [
-        // 3. Your actual binary target pointing to the .xcframework
         .binaryTarget(
-            name: "BlitzzCobrowseSDKBinary", // Renamed for clarity: this is the *binary*
+            name: "BlitzzCobrowseSDKBinary",
             path: "BlitzzCobrowseSDK.xcframework"
         ),
-        // 4. A wrapper source target that publicly exposes your SDK and declares its dependencies
         .target(
-            name: "BlitzzCobrowseSDKWrapper", // This is the target that clients will link
+            name: "BlitzzCobrowseSDKWrapper",
             dependencies: [
-                .target(name: "BlitzzCobrowseSDKBinary"), // It depends on your pre-built binary
-                .product(name: "SignalRClient", package: "SignalR-Client-Swift"), // Package name from the repo
-                .product(name: "SwiftCBOR", package: "SwiftCBOR") // Package name from the repo
+                .target(name: "BlitzzCobrowseSDKBinary"),
+                .product(name: "SignalRClient", package: "SignalR-Client-Swift"),
+                .product(name: "SwiftCBOR", package: "SwiftCBOR")
             ],
-            path: "Sources/BlitzzCobrowseSDKWrapper" // A new, *empty* folder for this wrapper target's source
+            path: "Sources/BlitzzCobrowseSDKWrapper"
         )
     ]
 )
