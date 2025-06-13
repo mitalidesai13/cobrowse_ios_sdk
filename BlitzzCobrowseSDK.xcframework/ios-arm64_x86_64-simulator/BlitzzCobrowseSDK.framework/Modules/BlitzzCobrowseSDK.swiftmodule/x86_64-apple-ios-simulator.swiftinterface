@@ -12,138 +12,25 @@ import VideoToolbox
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers final public class BlitzzCobrowseiOSSDK : ObjectiveC.NSObject, @unchecked Swift.Sendable {
-  public static let shared: BlitzzCobrowseSDK.BlitzzCobrowseiOSSDK
-  final public var signalRService: BlitzzCobrowseSDK.SignalRService!
-  final public var sessionSocketUrl: Swift.String
-  final public var videoEncoder: BlitzzCobrowseSDK.H264Encoder
-  @objc override dynamic public init()
-  final public func setupSignalRService(token: Swift.String)
-  @_Concurrency.MainActor final public func startScreenSharing()
-  final public func stopScreenSharing()
-  final public func imageToSampleBuffer(image: UIKit.UIImage) -> CoreMedia.CMSampleBuffer?
-  @_Concurrency.MainActor final public func joinGroup(user: Swift.String)
-  @objc deinit
-}
-extension BlitzzCobrowseSDK.BlitzzCobrowseiOSSDK : BlitzzCobrowseSDK.HubConnectionDelegate {
-  final public func connectionDidFailToOpen(error: any Swift.Error)
-  final public func connectionDidOpen(hubConnection: BlitzzCobrowseSDK.HubConnection)
-  final public func connectionDidClose(error: (any Swift.Error)?)
-  final public func hubConnection(didReceiveError error: any Swift.Error)
-}
-@_hasMissingDesignatedInitializers final public class CoBrowseConfig : @unchecked Swift.Sendable {
-  public static let shared: BlitzzCobrowseSDK.CoBrowseConfig
-  final public func set(licenseKey: Swift.String, autoInitiate: Swift.Bool = true)
-  final public func set(reference: Swift.String)
+final public class CoBrowseConfig : @unchecked Swift.Sendable {
+  public init(licenseKey: Swift.String, autoInitiate: Swift.Bool = true, reference: Swift.String)
   final public func set(sessionCode: Swift.String)
-  final public func getLicenseKey() -> Swift.String
-  final public func getCode() -> Swift.String
+  final public func getLicenseKey() -> Swift.String?
+  final public func getReference() -> Swift.String
+  final public func getSessionCode() -> Swift.String
+  final public func isAutoInitiateEnabled() -> Swift.Bool
+  final public func setLoggingEnabled(_ enabled: Swift.Bool)
+  final public func isLoggingEnabled() -> Swift.Bool
   @objc deinit
 }
-final public class CobrowseSessionService {
-  public init()
-  @_Concurrency.MainActor final public func getCurrentDeviceInfo() -> BlitzzCobrowseSDK.SessionRequest
-  @_Concurrency.MainActor final public func callCobrowseSessionAPI(requestPayload: BlitzzCobrowseSDK.SessionRequest, licenseKey: Swift.String, completion: @escaping @Sendable (Swift.Result<BlitzzCobrowseSDK.SessionResponse, any Swift.Error>) -> Swift.Void)
-  @objc deinit
-}
-final public class CoBrowseViewModel {
-  public init()
-  @_Concurrency.MainActor final public func startScreenSharing()
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class H264Encoder : ObjectiveC.NSObject {
-  public enum ConfigurationError : Swift.Error {
-    case cannotCreateSession
-    case cannotSetProperties
-    case cannotPrepareToEncode
-    public static func == (a: BlitzzCobrowseSDK.H264Encoder.ConfigurationError, b: BlitzzCobrowseSDK.H264Encoder.ConfigurationError) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  public var naluHandling: ((Foundation.Data) -> Swift.Void)?
-  public func configureCompressSession(width: Swift.Int, height: Swift.Int) throws
-  public func extractSPSAndPPS(from sampleBuffer: CoreMedia.CMSampleBuffer)
-  public func encode(buffer: CoreMedia.CMSampleBuffer)
-  @objc deinit
-}
-extension CoreMedia.CMSampleBuffer {
-  public var isKeyFrame: Swift.Bool {
+final public class BlitzzCobrowse {
+  public init(config: BlitzzCobrowseSDK.CoBrowseConfig)
+  public static func initializeShared(config: BlitzzCobrowseSDK.CoBrowseConfig)
+  public static var shared: BlitzzCobrowseSDK.BlitzzCobrowse {
     get
   }
-}
-public struct SessionRequest : Swift.Codable, Swift.Sendable {
-  public let deviceId: Swift.String
-  public let reference: Swift.String
-  public let userIdentity: Swift.String
-  public let appName: Swift.String
-  public let appID: Swift.String
-  public let platform: Swift.String
-  public let deviceName: Swift.String
-  public let browser: Swift.String
-  public let sdkVersion: Swift.String
-  public let customData: [Swift.String : Swift.String]
-  public init(deviceId: Swift.String, reference: Swift.String, userIdentity: Swift.String, appName: Swift.String, appID: Swift.String, platform: Swift.String, deviceName: Swift.String, browser: Swift.String, sdkVersion: Swift.String, customData: [Swift.String : Swift.String])
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct SessionResponse : Swift.Codable {
-  public let sessionID: Swift.String?
-  public let code: Swift.String?
-  public let token: Swift.String?
-  public let deviceID: Swift.String?
-  public let expireAt: Swift.String?
-  public let settings: BlitzzCobrowseSDK.Settings?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct Settings : Swift.Codable {
-  public let cobrowse: Swift.String?
-  public let cobrowserecording: Swift.String?
-  public let cobrowsecall: Swift.String?
-  public let cobrowseintegrations: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-final public class SignalRService {
-  public enum EventName : Swift.String {
-    case sessionSelected
-    case sessionStop
-    case replayEvent
-    case sessionAcknowledge
-    case sessionRejected
-    case replaySession
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
-  public enum MethodName : Swift.String {
-    case sendMessage
-    case sendMessageToGroup
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
-  final public var isConnected: Swift.Bool
-  final public var eventReceivedCallback: (() -> Swift.Void)?
-  final public var sender: Swift.String
-  final public var groupName: Swift.String
-  final public var region: Swift.String
-  final public var sessionSelectedReceived: Swift.Bool
-  public init(url: Foundation.URL, token: Swift.String)
-  final public func stopConnection()
-  final public func subscribeToEvents()
-  final public func sendMessageToGroup(groupName: Swift.String, message: [Swift.String : Any])
-  final public func sendReplayEvent(data: Foundation.Data, sender: Swift.String, region: Swift.String, sessionID: Swift.String, currUser: Swift.String, msgcnt: Swift.Int)
-  final public func sendSessionRejectedEvent(sessionID: Swift.String?, currUser: Swift.String)
-  final public func sendSessionAcknowledgeEvent(sessionID: Swift.String?, currUser: Swift.String)
-  @_Concurrency.MainActor final public func sendReplaySessionEvent(sessionID: Swift.String?, currUser: Swift.String, deviceId: Swift.String)
-  @_Concurrency.MainActor final public func getDeviceInfo() -> [Swift.String : Any]
+  @_Concurrency.MainActor final public func start()
+  @_Concurrency.MainActor final public func getCode()
   @objc deinit
 }
 public protocol Connection {
@@ -840,14 +727,6 @@ public enum DateStrategy {
     get
   }
 }
-extension BlitzzCobrowseSDK.H264Encoder.ConfigurationError : Swift.Equatable {}
-extension BlitzzCobrowseSDK.H264Encoder.ConfigurationError : Swift.Hashable {}
-extension BlitzzCobrowseSDK.SignalRService.EventName : Swift.Equatable {}
-extension BlitzzCobrowseSDK.SignalRService.EventName : Swift.Hashable {}
-extension BlitzzCobrowseSDK.SignalRService.EventName : Swift.RawRepresentable {}
-extension BlitzzCobrowseSDK.SignalRService.MethodName : Swift.Equatable {}
-extension BlitzzCobrowseSDK.SignalRService.MethodName : Swift.Hashable {}
-extension BlitzzCobrowseSDK.SignalRService.MethodName : Swift.RawRepresentable {}
 extension BlitzzCobrowseSDK.ProtocolType : Swift.Equatable {}
 extension BlitzzCobrowseSDK.ProtocolType : Swift.Hashable {}
 extension BlitzzCobrowseSDK.ProtocolType : Swift.RawRepresentable {}
