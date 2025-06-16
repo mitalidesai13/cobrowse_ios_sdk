@@ -33343,28 +33343,28 @@
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1317,
+      "offset": 1876,
       "length": 19,
       "value": "\"Permission Needed\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
+      "offset": 1923,
       "length": 88,
       "value": "\"A support agent would like to temporarily use app with you. Do you want to allow this?\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1483,
+      "offset": 2042,
       "length": 7,
       "value": "\"Allow\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1520,
+      "offset": 2079,
       "length": 6,
       "value": "\"Deny\""
     },
