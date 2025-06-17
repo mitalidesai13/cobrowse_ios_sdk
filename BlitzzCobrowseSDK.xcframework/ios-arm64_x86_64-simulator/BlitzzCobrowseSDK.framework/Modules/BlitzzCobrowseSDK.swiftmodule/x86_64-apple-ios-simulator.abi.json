@@ -106,178 +106,6 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "set",
-            "printedName": "set(sessionCode:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC3set11sessionCodeySS_tF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC3set11sessionCodeySS_tF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getLicenseKey",
-            "printedName": "getLicenseKey()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC13getLicenseKeySSSgyF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC13getLicenseKeySSSgyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getReference",
-            "printedName": "getReference()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC12getReferenceSSyF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC12getReferenceSSyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getSessionCode",
-            "printedName": "getSessionCode()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC14getSessionCodeSSyF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC14getSessionCodeSSyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isAutoInitiateEnabled",
-            "printedName": "isAutoInitiateEnabled()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC21isAutoInitiateEnabledSbyF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC21isAutoInitiateEnabledSbyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setLoggingEnabled",
-            "printedName": "setLoggingEnabled(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC17setLoggingEnabledyySbF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC17setLoggingEnabledyySbF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isLoggingEnabled",
-            "printedName": "isLoggingEnabled()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC16isLoggingEnabledSbyF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC16isLoggingEnabledSbyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -33343,105 +33171,98 @@
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1268,
+      "offset": 1889,
       "length": 19,
       "value": "\"Permission Needed\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1315,
+      "offset": 1936,
       "length": 88,
       "value": "\"A support agent would like to temporarily use app with you. Do you want to allow this?\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1434,
+      "offset": 2055,
       "length": 7,
       "value": "\"Allow\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1471,
+      "offset": 2092,
       "length": 6,
       "value": "\"Deny\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 400,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
-      "offset": 437,
+      "offset": 377,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
-      "offset": 469,
+      "offset": 409,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
-      "offset": 500,
+      "offset": 440,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 574,
+      "offset": 514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
       "kind": "Array",
-      "offset": 618,
+      "offset": 558,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 657,
+      "offset": 597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
       "kind": "FloatLiteral",
-      "offset": 700,
+      "offset": 640,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 724,
       "length": 27,
       "value": "\"com.cobrowse.captureQueue\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
       "kind": "StringLiteral",
-      "offset": 855,
+      "offset": 795,
       "length": 52,
       "value": "\"https:\/\/cobrowse-socket-dev.blitzz.co\/blitzzsocket\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
       "kind": "Array",
-      "offset": 1041,
+      "offset": 981,
       "length": 2,
       "value": "[]"
     },
@@ -33455,21 +33276,28 @@
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 387,
-      "length": 5,
-      "value": "false"
+      "offset": 358,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 398,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
       "kind": "StringLiteral",
-      "offset": 431,
+      "offset": 441,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 492,
+      "offset": 506,
       "length": 4,
       "value": "true"
     },
@@ -33721,51 +33549,86 @@
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 1112,
+      "offset": 1027,
+      "length": 13,
+      "value": "\"device-info\""
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
       "length": 13,
       "value": "\"SendMessage\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 1160,
+      "offset": 1157,
       "length": 20,
       "value": "\"SendMessageToGroup\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1285,
+      "offset": 1282,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1350,
       "length": 12,
       "value": "\"guest_user\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 1386,
+      "offset": 1383,
       "length": 8,
       "value": "\"domain\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 1412,
+      "offset": 1409,
       "length": 4,
       "value": "\"US\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1457,
+      "offset": 1454,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
+      "kind": "StringLiteral",
+      "offset": 1479,
+      "length": 45,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1517,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
+      "kind": "StringLiteral",
+      "offset": 1523,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
+      "kind": "StringLiteral",
+      "offset": 1584,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/SignalRClient\/HttpConnection.swift",
