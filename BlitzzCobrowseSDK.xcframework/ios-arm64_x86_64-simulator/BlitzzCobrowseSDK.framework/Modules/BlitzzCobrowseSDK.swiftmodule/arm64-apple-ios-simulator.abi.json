@@ -33562,36 +33562,29 @@
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1500,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 1525,
+      "offset": 1479,
       "length": 45,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1563,
+      "offset": 1517,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 1569,
+      "offset": 1523,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
       "kind": "StringLiteral",
-      "offset": 1630,
+      "offset": 1584,
       "length": 2,
       "value": "\"\""
     },
