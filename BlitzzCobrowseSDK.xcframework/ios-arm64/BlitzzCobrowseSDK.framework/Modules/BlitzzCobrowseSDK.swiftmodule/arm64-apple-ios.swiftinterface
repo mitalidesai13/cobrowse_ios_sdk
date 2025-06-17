@@ -14,13 +14,6 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 final public class CoBrowseConfig : @unchecked Swift.Sendable {
   public init(licenseKey: Swift.String, autoInitiate: Swift.Bool = true, reference: Swift.String)
-  final public func set(sessionCode: Swift.String)
-  final public func getLicenseKey() -> Swift.String?
-  final public func getReference() -> Swift.String
-  final public func getSessionCode() -> Swift.String
-  final public func isAutoInitiateEnabled() -> Swift.Bool
-  final public func setLoggingEnabled(_ enabled: Swift.Bool)
-  final public func isLoggingEnabled() -> Swift.Bool
   @objc deinit
 }
 final public class BlitzzCobrowse {

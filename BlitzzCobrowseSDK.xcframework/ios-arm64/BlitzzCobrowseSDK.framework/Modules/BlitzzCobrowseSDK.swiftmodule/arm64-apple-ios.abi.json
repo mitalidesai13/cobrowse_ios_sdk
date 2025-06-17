@@ -106,178 +106,6 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "set",
-            "printedName": "set(sessionCode:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC3set11sessionCodeySS_tF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC3set11sessionCodeySS_tF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getLicenseKey",
-            "printedName": "getLicenseKey()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC13getLicenseKeySSSgyF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC13getLicenseKeySSSgyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getReference",
-            "printedName": "getReference()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC12getReferenceSSyF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC12getReferenceSSyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getSessionCode",
-            "printedName": "getSessionCode()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC14getSessionCodeSSyF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC14getSessionCodeSSyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isAutoInitiateEnabled",
-            "printedName": "isAutoInitiateEnabled()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC21isAutoInitiateEnabledSbyF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC21isAutoInitiateEnabledSbyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setLoggingEnabled",
-            "printedName": "setLoggingEnabled(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC17setLoggingEnabledyySbF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC17setLoggingEnabledyySbF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isLoggingEnabled",
-            "printedName": "isLoggingEnabled()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC16isLoggingEnabledSbyF",
-            "mangledName": "$s17BlitzzCobrowseSDK14CoBrowseConfigC16isLoggingEnabledSbyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -33448,28 +33276,28 @@
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 354,
+      "offset": 358,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 394,
+      "offset": 398,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
       "kind": "StringLiteral",
-      "offset": 437,
+      "offset": 441,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 498,
+      "offset": 506,
       "length": 4,
       "value": "true"
     },
@@ -33793,6 +33621,13 @@
       "kind": "StringLiteral",
       "offset": 1523,
       "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/SignalRService.swift",
+      "kind": "StringLiteral",
+      "offset": 1584,
+      "length": 2,
       "value": "\"\""
     },
     {
